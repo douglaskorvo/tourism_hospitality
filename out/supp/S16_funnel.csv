@@ -1,0 +1,9 @@
+stage,n
+Skip-gram vocabulary (min_count 25),6235
+Terms of at least four characters,6035
+Cosine similarity to the hospitality centroid >= 0.42,697
+Contrastive margin over generic praise >= 0.02,532
+Personal names removed (gazetteer),500
+Topical terms removed (declared list),354
+Grouped by 5-character truncation,234
+Marker groups with prevalence >= 0.3%,56

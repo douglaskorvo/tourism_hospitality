@@ -1,0 +1,6 @@
+test,addresses,n_reviews,n_cities,rank_rho
+Translated reviews only,Brazilian cities are served in the original language,37407,29,0.866502463054187
+Net of generic affect and star rating,Index may measure expressiveness of the review culture,50180,29,0.947783251231527
+Excluding China,Google Maps is not the domestic platform in mainland China,49142,26,0.9999999999999999
+Mass-market suppliers only,Supplier-mix composition,23156,29,0.8753694581280785
+Independent and creative suppliers only,Supplier-mix composition,27024,29,0.8901477832512312

@@ -1,0 +1,137 @@
+==========================================================================
+R1  TRANSLATION CHANNEL
+==========================================================================
+translated-only subsample: 37,407 reviews, 29 cities (Brazilian cities keep only their translated minority)
+rank correlation full vs translated-only: rho = 0.867 (p = 1.2e-09, n = 29)
+
+Brazilian cities, full vs translated-only prevalence:
+   Rio de Janeiro     0.422 -> 0.534 (n = 232)
+   Salvador           0.409 -> 0.633 (n = 90)
+   Foz do Iguaçu      0.406 -> 0.496 (n = 565)
+   São Paulo          0.399 -> 0.310 (n = 42)
+
+==========================================================================
+R2  EXPRESSIVENESS
+==========================================================================
+                    adj  net_affect  net_affect_rating  raw_prev
+Salvador          0.353       0.317              0.335     0.409
+Aswan             0.396       0.357              0.290     0.492
+Rio de Janeiro    0.343       0.298              0.276     0.422
+Abu Dhabi         0.271       0.218              0.221     0.519
+Cairo             0.188       0.176              0.208     0.426
+Foz do Iguaçu     0.228       0.201              0.203     0.406
+São Paulo         0.233       0.200              0.200     0.399
+Dubai             0.279       0.212              0.180     0.513
+Al-Ula            0.051       0.123              0.164     0.358
+Johannesburg      0.167       0.124              0.141     0.439
+Sharjah           0.200       0.160              0.115     0.507
+Lalibela          0.184       0.107              0.111     0.462
+Luxor             0.142       0.129              0.109     0.440
+Agra              0.077       0.078              0.086     0.398
+Cape Town         0.213       0.140              0.085     0.485
+Delhi             0.161       0.117              0.074     0.478
+Jaipur            0.128       0.094              0.025     0.425
+Shiraz           -0.107      -0.038             -0.002     0.288
+Saint Petersburg  0.004       0.023             -0.002     0.448
+Mumbai            0.015      -0.046             -0.116     0.459
+Addis Ababa      -0.039      -0.083             -0.119     0.395
+Moscow           -0.143      -0.092             -0.130     0.403
+Jeddah           -0.387      -0.329             -0.223     0.334
+Riyadh           -0.409      -0.369             -0.241     0.347
+Beijing          -0.382      -0.314             -0.288     0.312
+Isfahan          -0.464      -0.363             -0.315     0.233
+Tehran           -0.602      -0.479             -0.394     0.233
+Shanghai         -0.602      -0.452             -0.439     0.268
+Xi'an            -0.498      -0.508             -0.554     0.340
+
+rank correlations
+   adj                ~ net_affect         rho = +0.981  p = 7.5e-21
+   adj                ~ net_affect_rating  rho = +0.948  p = 6.4e-15
+   raw_prev           ~ net_affect_rating  rho = +0.629  p = 0.00026
+
+==========================================================================
+R3  HOSPITALITY PROFILE (composition, free of expressiveness)
+==========================================================================
+                  H_conduct  H_ambience  H_development               country
+city                                                                        
+Shanghai              0.426       0.118          0.456                 China
+Xi'an                 0.382       0.203          0.415                 China
+Al-Ula                0.473       0.161          0.366          Saudi Arabia
+Beijing               0.535       0.119          0.346                 China
+Moscow                0.551       0.113          0.336                Russia
+Saint Petersburg      0.562       0.107          0.331                Russia
+Dubai                 0.507       0.162          0.331  United Arab Emirates
+Johannesburg          0.517       0.154          0.329          South Africa
+Riyadh                0.524       0.153          0.323          Saudi Arabia
+Abu Dhabi             0.489       0.190          0.321  United Arab Emirates
+Jeddah                0.530       0.155          0.315          Saudi Arabia
+Rio de Janeiro        0.528       0.160          0.312                Brazil
+Tehran                0.532       0.159          0.309                  Iran
+Isfahan               0.512       0.180          0.308                  Iran
+São Paulo             0.528       0.164          0.307                Brazil
+Cape Town             0.521       0.172          0.307          South Africa
+Cairo                 0.530       0.167          0.303                 Egypt
+Mumbai                0.506       0.192          0.302                 India
+Aswan                 0.494       0.205          0.301                 Egypt
+Sharjah               0.515       0.187          0.297  United Arab Emirates
+Delhi                 0.524       0.183          0.294                 India
+Salvador              0.560       0.156          0.285                Brazil
+Shiraz                0.554       0.163          0.283                  Iran
+Luxor                 0.547       0.171          0.282                 Egypt
+Lalibela              0.521       0.202          0.277              Ethiopia
+Foz do Iguaçu         0.587       0.139          0.275                Brazil
+Jaipur                0.534       0.192          0.274                 India
+Addis Ababa           0.527       0.204          0.268              Ethiopia
+Agra                  0.564       0.169          0.267                 India
+  within hospitality-bearing reviews: H_conduct       r_sb = 0.740  perm p = 0.0010  ICC = 0.003
+  within hospitality-bearing reviews: H_ambience      r_sb = 0.629  perm p = 0.0010  ICC = 0.013
+  within hospitality-bearing reviews: H_development   r_sb = 0.708  perm p = 0.0010  ICC = 0.009
+
+correlation of profile shares with expressiveness and rating
+   H_conduct       ~ affect rho = -0.257 (p=0.179) | ~ 5-star rho = -0.103 (p=0.595)
+   H_ambience      ~ affect rho = +0.511 (p=0.005) | ~ 5-star rho = +0.576 (p=0.001)
+   H_development   ~ affect rho = -0.330 (p=0.081) | ~ 5-star rho = -0.510 (p=0.005)
+
+==========================================================================
+R4  PLATFORM COVERAGE AND SEGMENT
+==========================================================================
+excluding China: 49,142 reviews, 26 cities, rank rho vs full = 1.000
+  mass_market  n = 23,156  rank rho vs full = 0.875
+  creative     n = 27,024  rank rho vs full = 0.890
+  mass-market vs creative city rankings: rho = 0.606
+
+==========================================================================
+RQ2  LEAVE-ONE-COUNTRY-OUT
+==========================================================================
+full sample:
+                 coef      se       t       p
+SQpos_flag    -0.0003  0.0041 -0.0655  0.9477
+SQneg_flag    -0.0405  0.0080 -5.0787  0.0000
+H_conduct      0.0350  0.0046  7.6591  0.0000
+H_ambience     0.0485  0.0073  6.5957  0.0000
+H_development  0.0231  0.0052  4.4197  0.0000
+
+leaving out:
+             omitted   SQpos  SQpos_p   SQneg  H_conduct  H_ambience  H_development
+              Brazil -0.0006   0.9075 -0.0407     0.0416      0.0458         0.0231
+               China -0.0007   0.8648 -0.0397     0.0347      0.0487         0.0233
+               Egypt -0.0018   0.6652 -0.0429     0.0354      0.0468         0.0243
+            Ethiopia -0.0004   0.9142 -0.0395     0.0344      0.0487         0.0244
+               India -0.0006   0.9043 -0.0428     0.0315      0.0465         0.0186
+                Iran -0.0005   0.8959 -0.0403     0.0345      0.0494         0.0221
+              Russia -0.0001   0.9772 -0.0373     0.0365      0.0486         0.0218
+        Saudi Arabia -0.0002   0.9667 -0.0423     0.0346      0.0486         0.0237
+        South Africa  0.0030   0.4867 -0.0402     0.0334      0.0481         0.0233
+United Arab Emirates -0.0008   0.8611 -0.0392     0.0335      0.0528         0.0262
+
+city-level SQ ~ DQ, leaving out one country at a time
+   omit Brazil                 rho = +0.058  p = 0.784  (n = 25)
+   omit China                  rho = +0.324  p = 0.106  (n = 26)
+   omit Egypt                  rho = -0.046  p = 0.823  (n = 26)
+   omit Ethiopia               rho = -0.030  p = 0.882  (n = 27)
+   omit India                  rho = +0.166  p = 0.427  (n = 25)
+   omit Iran                   rho = +0.166  p = 0.418  (n = 26)
+   omit Russia                 rho = +0.112  p = 0.577  (n = 27)
+   omit Saudi Arabia           rho = +0.115  p = 0.577  (n = 26)
+   omit South Africa           rho = +0.093  p = 0.645  (n = 27)
+   omit United Arab Emirates   rho = +0.221  p = 0.279  (n = 26)

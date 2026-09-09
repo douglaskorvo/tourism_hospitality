@@ -1,0 +1,57 @@
+family,group,type_label,n_reviews,n_total,sim_hosp,margin,centrality
+atencao/atenciosa/atenciosas,atenc,1 Interpersonal conduct,2915,50180,0.4851417243480682,0.1270991563796997,0.74
+simpatia/simpatica/simpaticas/simpaticos,simpa,1 Interpersonal conduct,2534,50180,0.5346096158027649,0.1577136814594268,0.763
+familia/familiar,famil,1 Interpersonal conduct,2464,50180,0.4712787866592407,0.0554440021514892,0.581
+confortavel/conforto,confo,1 Interpersonal conduct,2223,50180,0.4565488696098327,0.1177670657634735,0.577
+gentil/gentileza/gentis,genti,1 Interpersonal conduct,2128,50180,0.5234055519104004,0.2155193090438842,0.815
+amigavel,amiga,1 Interpersonal conduct,1224,50180,0.5287817120552063,0.0324346721172332,0.622
+prestativa/prestativas/presteza/prestou,prest,1 Interpersonal conduct,1219,50180,0.5327715277671814,0.1878675520420074,0.848
+profissionalismo,profi,1 Interpersonal conduct,1144,50180,0.4414812624454498,0.1284084320068359,0.571
+segura/seguro,segur,1 Interpersonal conduct,1034,50180,0.4317067265510559,0.0681869685649871,0.562
+recepcao/recepcionista/receptiva/receptividade/receptivo,recep,1 Interpersonal conduct,828,50180,0.6118801832199097,0.2023639380931854,0.825
+hospitaleiro/hospitalidade,hospi,1 Interpersonal conduct,662,50180,0.6407591700553894,0.2738843858242035,0.72
+apoio,apoio,1 Interpersonal conduct,657,50180,0.457902729511261,0.131982535123825,0.569
+carinho/carinhosa,carin,1 Interpersonal conduct,602,50180,0.6113892793655396,0.1974586844444275,0.73
+calorosa/calorosamente/caloroso/calorosos,calor,1 Interpersonal conduct,582,50180,0.6780611276626587,0.3457794487476349,0.786
+genuina/genuinamente/genuino,genui,1 Interpersonal conduct,447,50180,0.5428382158279419,0.1946058869361877,0.697
+recebida/recebido/recebidos,receb,1 Interpersonal conduct,427,50180,0.5703117847442627,0.2145010828971862,0.633
+respeitada/respeitado/respeitosa/respeitoso/respeitosos,respe,1 Interpersonal conduct,422,50180,0.5149781107902527,0.1904475688934326,0.787
+sorridente/sorrindo/sorriso/sorrisos,sorri,1 Interpersonal conduct,366,50180,0.5488543510437012,0.2515522986650467,0.739
+educada,educa,1 Interpersonal conduct,356,50180,0.4331365823745727,0.0610781610012054,0.599
+tranquilidade,tranq,1 Interpersonal conduct,281,50180,0.4308193325996399,0.1141588389873504,0.53
+cuida/cuidada/cuidadosos/cuidando,cuida,1 Interpersonal conduct,266,50180,0.5277572274208069,0.1952163875102996,0.764
+competencia/competentes,compe,1 Interpersonal conduct,246,50180,0.4941114783287048,0.1089738011360168,0.717
+anfitriao,anfit,1 Interpersonal conduct,216,50180,0.4910655617713928,0.1056425273418426,0.562
+humilde/humildes,humil,1 Interpersonal conduct,206,50180,0.5239430665969849,0.1613625586032867,0.754
+sincera/sinceridade,since,1 Interpersonal conduct,181,50180,0.4321090281009674,0.1503558754920959,0.623
+calma,calma,1 Interpersonal conduct,176,50180,0.528949499130249,0.1658437252044677,0.578
+ambiente,ambie,2 Created ambience,2991,50180,0.5537146925926208,0.1820986568927765,0.698
+aconchegante/aconchegantes/aconchego,aconc,2 Created ambience,898,50180,0.677416980266571,0.271433413028717,0.894
+atmosfera/atmosferico,atmos,2 Created ambience,853,50180,0.6239550113677979,0.2444384694099426,0.835
+decoracao/decorados,decor,2 Created ambience,477,50180,0.4911137521266937,0.1318075954914093,0.743
+vibracao/vibracoes/vibrante,vibra,2 Created ambience,467,50180,0.5855479836463928,0.2025692760944366,0.814
+relaxados/relaxante/relaxantes,relax,2 Created ambience,432,50180,0.623970091342926,0.1910547614097595,0.806
+encantador/encantadora/encantadoras,encan,2 Created ambience,386,50180,0.5503312349319458,0.0825823843479156,0.803
+clima,clima,2 Created ambience,326,50180,0.4685292243957519,0.1355533301830291,0.634
+autentica/autenticidade,auten,2 Created ambience,316,50180,0.4712015986442566,0.1732431352138519,0.644
+descontraida/descontraido,desco,2 Created ambience,221,50180,0.5663415193557739,0.1305300593376159,0.76
+charme/charmosa,charm,2 Created ambience,161,50180,0.5528861284255981,0.0750050842761993,0.787
+acolhedor/acolhedora/acolhedoras/acolhedores/acolhida/acolhido/acolhidos/acolhimento,acolh,3 Development,1942,50180,0.7491700053215027,0.3725605905056,0.822
+dedica/dedicacao/dedicada/dedicadas/dedicados/dedicam,dedic,3 Development,984,50180,0.5233358144760132,0.1690788865089416,0.823
+energia/energias/energica,energ,3 Development,788,50180,0.5713473558425903,0.1878316402435302,0.795
+paixao,paixa,3 Development,667,50180,0.4371330142021179,0.0935563445091247,0.654
+alegre/alegres/alegria,alegr,3 Development,662,50180,0.6030431985855103,0.1460051536560058,0.766
+positiva/positividade/positivo,posit,3 Development,557,50180,0.6151812672615051,0.3117785155773163,0.764
+criativa/criativas/criativo,criat,3 Development,557,50180,0.4453145563602447,0.1138659715652465,0.725
+aprendizado,apren,3 Development,497,50180,0.429302841424942,0.106021761894226,0.684
+inspira/inspiracao/inspirador/inspiradora/inspiradoras/inspiradores/inspirar,inspi,3 Development,487,50180,0.5667566657066345,0.2178713977336883,0.909
+comunidade/comunitario,comun,3 Development,331,50180,0.5130634903907776,0.2434723377227783,0.67
+crescer/cresceu/crescimento,cresc,3 Development,291,50180,0.45425945520401,0.200088232755661,0.777
+entusiasmo,entus,3 Development,266,50180,0.4417474269866943,0.153081476688385,0.65
+enriquecedor/enriquecedora/enriqueceram/enriqueceu,enriq,3 Development,256,50180,0.556405782699585,0.1165927052497863,0.722
+pacientes,pacie,3 Development,256,50180,0.476839005947113,0.1951510310173034,0.615
+incentiva/incentivam/incentivando/incentivar/incentivo,incen,3 Development,246,50180,0.5144202709197998,0.2600625455379486,0.85
+envolvente,envol,3 Development,236,50180,0.4736461341381073,0.0873037874698638,0.65
+apaixonados/apaixonar,apaix,3 Development,221,50180,0.4810636639595032,0.1568270921707153,0.75
+animadas/animado,anima,3 Development,191,50180,0.4721748828887939,0.0952230989933013,0.734
+motiva/motivacao/motivado/motivador/motivadora,motiv,3 Development,191,50180,0.6023727059364319,0.2335956692695617,0.881

@@ -1,0 +1,30 @@
+city,n_hosp_reviews,n_conduct,n_ambience,n_development,country
+Abu Dhabi,1219,914,355,600,United Arab Emirates
+Addis Ababa,395,289,112,147,Ethiopia
+Agra,936,713,214,338,India
+Al-Ula,82,53,18,41,Saudi Arabia
+Aswan,237,176,73,107,Egypt
+Beijing,123,85,19,55,China
+Cairo,923,688,217,393,Egypt
+Cape Town,1123,815,269,480,South Africa
+Delhi,1704,1293,451,725,India
+Dubai,1699,1311,420,856,United Arab Emirates
+Foz do Iguaçu,800,613,145,287,Brazil
+Isfahan,123,88,31,53,Iran
+Jaipur,1187,891,320,456,India
+Jeddah,559,417,122,248,Saudi Arabia
+Johannesburg,862,606,181,386,South Africa
+Lalibela,67,49,19,26,Ethiopia
+Luxor,463,342,107,176,Egypt
+Moscow,787,575,118,351,Russia
+Mumbai,1401,1036,392,618,India
+Rio de Janeiro,1566,1131,343,669,Brazil
+Riyadh,779,581,170,358,Saudi Arabia
+Saint Petersburg,827,623,119,367,Russia
+Salvador,1045,773,215,393,Brazil
+Shanghai,104,58,16,62,China
+Sharjah,313,253,92,146,United Arab Emirates
+Shiraz,126,92,27,47,Iran
+São Paulo,1522,1105,344,643,Brazil
+Tehran,234,167,50,97,Iran
+Xi'an,87,47,25,51,China

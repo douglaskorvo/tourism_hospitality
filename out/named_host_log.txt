@@ -1,0 +1,14 @@
+raw author tokens with freq>=15 : 943
+retained as unambiguous names   : 923
+dropped as ambiguous (word-like): dos, das, dias, tour, tours, nada, travel, rio, linda, abu, filho, chef, paixao, and, studio, brasil, tomar, passos, world, mesquita
+
+reviews naming a person other than the reviewer: 22.1%
+   hospitality-bearing            29.5%  (n=21,293)
+   no hospitality marker          16.6%  (n=28,887)
+   conduct type                   30.6%  (n=15,784)
+   ambience type                  31.0%  (n=4,984)
+   development type               30.0%  (n=9,176)
+   service-quality mention        30.0%  (n=17,996)
+   destination-quality mention    35.5%  (n=6,584)
+
+chi2 = 1189.3, p = 1.29e-260, Cramer's V = 0.154

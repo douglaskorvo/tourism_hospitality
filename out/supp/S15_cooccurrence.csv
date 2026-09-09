@@ -1,0 +1,4 @@
+type_a,type_b,n_a,n_b,n_both,n_total,phi
+Hospitality type 1: interpersonal conduct,Hospitality type 3: development,15784,9176,4920,50180,0.22579668680745468
+Hospitality type 2: created ambience,Hospitality type 1: interpersonal conduct,4984,15784,3161,50180,0.22862579224016033
+Hospitality type 2: created ambience,Hospitality type 3: development,4984,9176,2106,50180,0.20591151038722078

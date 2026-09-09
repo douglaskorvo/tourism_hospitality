@@ -1,0 +1,13 @@
+indicator,label,n_reviews_flagged,n_reviews_total
+H_any,"Hospitality, any type",21293,50180
+H_conduct,Hospitality type 1: interpersonal conduct,15784,50180
+H_ambience,Hospitality type 2: created ambience,4984,50180
+H_development,Hospitality type 3: development,9176,50180
+DESTHOSP_flag,Hospitality predicated of the destination itself,18,50180
+SQpos_flag,"Service quality, positive",17996,50180
+SQneg_flag,"Service quality, negative",2961,50180
+DQpos_flag,"Destination quality, positive",6584,50180
+DQneg_flag,"Destination quality, negative",249,50180
+EXP_flag,Generic experiential affect,29138,50180
+INTpos_flag,"Behavioural intention, positive",14192,50180
+INTneg_flag,"Behavioural intention, negative",675,50180
